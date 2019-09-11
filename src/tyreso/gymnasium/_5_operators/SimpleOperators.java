@@ -58,8 +58,8 @@ public class SimpleOperators {
         System.out.println(numOne > numTwo);    //false
         //TODO Helklass/modig elev/ofrivilligt offer
         System.out.println("Är numTwo större än numOne?");
-        System.out.println();   //TODO CODE HERE!
+        System.out.println(numOne < numTwo);   //TODO CODE HERE!
         System.out.println("Är numTwo större än numTwo?");
-        System.out.println();   //TODO CODE HERE!
+        System.out.println(numTwo >= numTwo);   //TODO CODE HERE!
     }
 }

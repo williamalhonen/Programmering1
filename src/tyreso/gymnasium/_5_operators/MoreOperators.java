@@ -58,7 +58,7 @@ public class MoreOperators {
         System.out.println( 4 <= 3 );   //TODO: true/false?
         System.out.println( 4 <= 4 );   //TODO: true/false?
         System.out.println( 4 <= 5 );   //TODO: true/false?
-        System.out.println("Resultatet borde vara: ?, ?, ?, ?");
+        System.out.println("Resultatet borde vara: false, true, true");
         System.out.println();
 
         // >= operatören(greater or equals)
@@ -76,7 +76,7 @@ public class MoreOperators {
         System.out.println( true && false );    //TODO: true/false?
         System.out.println( false && true );    //TODO: true/false?
         System.out.println( false && false );   //TODO: true/false?
-        System.out.println("Resultatet borde vara: ?, ?, ?, ?");
+        System.out.println("Resultatet borde vara: true, false, false, false");
         System.out.println();
 
         //  || operatören(logisk ELLER / OR operatör)
@@ -85,7 +85,7 @@ public class MoreOperators {
         System.out.println( true || false );    //TODO: true/false?
         System.out.println( false || true );    //TODO: true/false?
         System.out.println( false || false );   //TODO: true/false?
-        System.out.println("Resultatet borde vara: ?, ?, ?, ?");
+        System.out.println("Resultatet borde vara: true, true, true, false");
         System.out.println();
 
         //mer variabeldeklaration och initialisation
@@ -96,9 +96,9 @@ public class MoreOperators {
         //TODO Vad ska vi skriva för att kolla om a är 5?
         a -= 7; //a = -2
         //TODO ...och här?
-        a *= 3; //a = TODO?
+        a *= 3; //a = -6
         //TODO ...och här?
-        a /= -3;
+        a /= -3; //a = 2
         //TODO ...och vad blev nu a till slut?
     }
 }
