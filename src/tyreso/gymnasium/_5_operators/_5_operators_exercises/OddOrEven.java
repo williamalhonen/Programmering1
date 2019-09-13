@@ -10,6 +10,7 @@ public class OddOrEven {
         long b = 1985612321;
         long c = 73;
 
+
         /**
          * 1. Kontrollera vilken av variablerna a, b och c är jämn och vilka som är udda med hjälp av en av operatörerna
          * 2. Skriv ut ditt resultat på ett användarvänligt(läsbart) sätt till konsolen
@@ -39,6 +40,49 @@ public class OddOrEven {
         System.out.println("Talet " + b + " visar: " + resultatb + " (0=jämnt, 1=ojämnt)");
         System.out.println("");
         System.out.println("Talet " + c + " visar: " + resultatc + " (0=jämnt, 1=ojämnt)");
+
+
+        long d = 9;
+        long resultatd = d % 5;
+        boolean resultat2 = (resultatd >= 4);
+
+        System.out.println("Uträkningen visar om resten av 9/5 är större eller likamed 4.");
+        System.out.println(resultat2);
+        System.out.println("Resten av 9/5 är större eller likamed 4.");
+
+        long numbOne = 3;
+        long numbTwo = 1;
+        long numbThree = 2;
+
+        long addResult = numbOne + numbTwo;
+        System.out.println("3+1=" + addResult);
+
+        long subtractResult = addResult - numbTwo - numbTwo;
+        System.out.println("4-1-1=" + subtractResult);
+
+        long multiResult = subtractResult * numbOne;
+        System.out.println("2x3=" + multiResult);
+
+        boolean finalResult = (multiResult == 6);
+        System.out.println("Är 2x3=6? " + finalResult);
+        boolean finalResult2 = (multiResult == 8);
+        System.out.println("Är 2x3=8? " + finalResult2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         //TODO BONUS CHALLENGE BELOW!!!  BONUS CHALLENGE BELOW!!!  BONUS CHALLENGE BELOW!!!  BONUS CHALLENGE BELOW!!!
