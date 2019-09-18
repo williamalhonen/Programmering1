@@ -32,6 +32,7 @@ public class SelectionWithOperatorsAndDataTypes {
         //Check whether a is smaller than x
         //For each step above, print some relevant text to console
 
+        a = 7;
         if (a > x)
             System.out.println("A is larger than X");
         else
@@ -49,7 +50,7 @@ public class SelectionWithOperatorsAndDataTypes {
 
 
 
-
+        a = 5;
         //TODO nr2
         //Change a to be 5
         //Assign 3 to b
@@ -87,6 +88,7 @@ public class SelectionWithOperatorsAndDataTypes {
         }
         //TODO Use Visual Paradigm to draw a diagram of the code you wrote(this is actually backwards, you usually draw the
         // diagrams first and then build the code based on the diagram, but whatever.
+
 
         //TODO !!!CHALLENGE!!!   !!!CHALLENGE!!!   !!!CHALLENGE!!!   !!!CHALLENGE!!!   !!!CHALLENGE!!!
         //Do something fun with the switch statement
