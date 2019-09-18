@@ -97,5 +97,7 @@ public class OddOrEven {
         if (((numOne == 3) && (numOne > 0)) || (5 > 5)) {
             System.out.println("Well that's weird");
         }
+
+
     }
 }
