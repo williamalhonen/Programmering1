@@ -61,6 +61,8 @@ public class SelectionWithOperatorsAndDataTypes {
         if((a < b) || (a == y))
                 System.out.println("A is smaller than B or equal to Y");
        /** Code before challenge
+        if(a < b)
+            System.out.println("A is smaller than B")
         else if(a == y)
             System.out.println("A is equal to Y");
         else
