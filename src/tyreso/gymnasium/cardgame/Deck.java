@@ -52,7 +52,7 @@ public class Deck {
 
     }
     @Override
-    public  String toString(){
+    public String toString(){
         return "A deck of cards currently holding: " + this.deck.size() +
                 "cards. The max size of the deck is: " + this.maxSize;
     }
